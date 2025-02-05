@@ -1,1 +1,54 @@
-Pradeep
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { FaAws, FaDocker, FaLinux, FaPython, FaJenkins, FaGithub, FaCloud } from "react-icons/fa";
+import { SiKubernetes, SiTerraform, SiAzuredevops, SiGooglecloud, SiJira } from "react-icons/si";
+
+export default function Portfolio() {
+  return (
+    <div className="min-h-screen bg-gray-900 text-white p-6">
+      <motion.div
+        className="max-w-4xl mx-auto text-center"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        <h1 className="text-4xl font-bold text-blue-400">Pradeep - Cloud Engineer</h1>
+        <p className="mt-3 text-lg text-gray-400">AWS Certified | DevSecOps | Security | Azure | GCP | Linux | Docker | Kubernetes | GitHub | Terraform | Jenkins | Pipeline | Python | Jira</p>
+      </motion.div>
+
+      {/* Skills Section */}
+      <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
+        {[FaAws, SiAzuredevops, SiGooglecloud, FaLinux, FaDocker, SiKubernetes, FaGithub, SiTerraform, FaJenkins, FaPython, FaCloud, SiJira].map((Icon, index) => (
+          <motion.div
+            key={index}
+            className="flex flex-col items-center p-4 bg-gray-800 rounded-lg shadow-md hover:scale-105 transition"
+            whileHover={{ scale: 1.1 }}
+          >
+            <Icon className="text-blue-400 text-4xl" />
+          </motion.div>
+        ))}
+      </div>
+
+      {/* Projects Section */}
+      <div className="mt-16 max-w-4xl mx-auto">
+        <h2 className="text-2xl font-semibold text-blue-400">Projects</h2>
+        <div className="mt-4 grid gap-6 md:grid-cols-2">
+          <motion.div className="p-4 bg-gray-800 rounded-lg shadow-md hover:scale-105 transition" whileHover={{ scale: 1.05 }}>
+            <h3 className="text-xl font-bold">AWS Infra Automation</h3>
+            <p className="text-gray-400 text-sm">Built scalable AWS infrastructure using Terraform & Jenkins pipelines.</p>
+          </motion.div>
+          <motion.div className="p-4 bg-gray-800 rounded-lg shadow-md hover:scale-105 transition" whileHover={{ scale: 1.05 }}>
+            <h3 className="text-xl font-bold">Kubernetes CI/CD</h3>
+            <p className="text-gray-400 text-sm">Automated deployments using Kubernetes, GitHub Actions & Helm charts.</p>
+          </motion.div>
+        </div>
+      </div>
+
+      {/* Contact Section */}
+      <div className="mt-16 text-center">
+        <h2 className="text-2xl font-semibold text-blue-400">Contact Me</h2>
+        <p className="mt-2 text-gray-400">Email: abpradeep.ab@gmail.com | GitHub: github.com/pradeepgowdaab</p>
+      </div>
+    </div>
+  );
+}
