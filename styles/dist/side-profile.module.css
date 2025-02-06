@@ -1,0 +1,70 @@
+#sideProfile {
+  height: 100vh;
+  background-color: #DFF4FF;
+  width: inherit;
+  position: fixed;
+}
+
+#sideProfile #frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  flex-direction: column;
+}
+
+#sideProfile #frame .profilePic {
+  width: 330px;
+  max-width: 70%;
+  border: solid #FFFADE;
+  border-width: 1.5rem 1rem 4rem 1rem;
+  rotate: -2deg;
+}
+
+#sideProfile #frame .name {
+  font-family: Callista;
+  rotate: -2deg;
+  margin-top: -3rem;
+}
+
+#sideProfile #frame .name a {
+  color: #000;
+  text-decoration: none;
+}
+
+#sideProfile #frame .name a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#sideProfile .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#sideProfile .links ul {
+  padding: 0;
+  list-style: none;
+}
+
+#sideProfile .links ul li {
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+  font-family: Laura;
+  font-size: 2rem;
+}
+
+#sideProfile .links ul a {
+  text-decoration: none;
+  color: #3A1078;
+}
+
+#sideProfile .links ul a:hover {
+  text-decoration: underline;
+  color: #990073;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=side-profile.module.css.map */

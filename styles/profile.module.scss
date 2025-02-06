@@ -1,0 +1,138 @@
+#profile {
+    padding-top: 3.7rem;
+    padding-bottom: 70vh;
+
+    @media screen and (min-width: 768px) {
+		padding-top: 1rem;
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+	}
+
+    .stars {
+        padding-right: .5rem;
+        font-size: 1.5rem;
+        color:#3A1078;
+    }
+
+    #resumeBtn {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        background: #3A1078;
+        border-color: #3A1078;
+    }
+
+    .workEx {
+        border-left: 1px solid #4E31AA;
+        padding-left: 2.5rem;
+        margin-left: 1rem;
+
+        &:nth-of-type(n + 2) {
+            margin-top: 2.2rem;
+        }
+
+        .startTime, .endTime {
+            margin-left: -4.1rem;
+            margin-bottom: 0;
+            font-family: Laura;
+            font-size: 150%;
+            color: #4E31AA;
+            letter-spacing: 2px;
+            &::before {
+                display: inline-flex;
+                flex-direction: row;
+                height: 3rem;
+                width: 3rem;
+                content: " ";
+                background-color: #4E31AA;
+                padding-bottom: 1.1rem;
+                margin-right: 1rem;
+                border-radius: 50%;
+            }
+        }
+        .endTime {margin-bottom: 1rem; }
+        .startTime {margin-top: 1.2rem; }
+
+        .organization {
+            margin: 0;
+            letter-spacing: 2px;
+            a {
+                text-decoration: none;
+                color: #3A1078;
+                font-family: LeagueSpartan;
+                &:hover { text-decoration: underline; cursor: pointer; }
+            }
+        }
+
+        .position {
+            font-family: Montserrat;
+            font-size: 150%;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .skillset {
+            margin-bottom: 1rem;
+            margin-left: -0.2rem;
+        }
+
+        .description {
+            letter-spacing: 2px;
+            font-family: Montserrat;
+        }
+
+        .widthsm50Container {
+            flex-direction: column;
+
+            >div {
+                flex-direction: column;
+            }
+
+            div:nth-child(2) {
+                padding-left: 0rem;
+            }
+
+            @media screen and (min-width: 992px) {
+                flex-direction: row;
+                div:nth-child(2) {
+                    padding-left: 1rem;
+                }
+            }
+            .widthsm50 {
+                width: 100%;
+                flex-direction: column;
+                &:nth-child(1) {
+                    display: none !important;
+                }
+                @media screen and (min-width: 992px) {
+                    width: 50%;
+                    &:nth-child(1) {
+                        display: initial !important;
+                    }
+                }
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                li {
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 1rem;
+                    font-family: Montserrat;
+                    letter-spacing: 2px;
+                    &::before {
+                        content: "R"; /* FontAwesome Unicode */
+                        font-family: Wingdings;
+                        font-size: 22px;
+                        display: inline-flex;
+                        margin-right: .6rem;
+                        display: flex;
+                        align-items: center;
+                        margin-top: 3px;
+                    }
+                }
+            }
+        }
+    }
+}

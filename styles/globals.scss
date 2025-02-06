@@ -1,0 +1,254 @@
+/**
+color pallets
+  3A1078
+  4E31AA
+  2F58CD
+  3795BD
+*/
+
+@font-face {
+  font-family: Guaraldo;
+  src: url('fonts/guaraldo.ttf');
+}
+
+@font-face {
+  font-family: LeagueSpartan;
+  src: url('fonts/league-spartan.otf');
+}
+@font-face {
+  font-family: Callista;
+  src: url('fonts/callista.ttf');
+}
+@font-face {
+  font-family: Laura;
+  src: url('fonts/laura.ttf');
+}
+@font-face {
+	font-family: Montserrat;
+	src: url('fonts/montserrat.ttf');
+}
+@font-face {
+	font-family: Wingdings;
+	src: url('fonts/wingdings.ttf');
+}
+
+#__next {
+  overflow-x: hidden;
+
+  @media screen and (min-width: 576px) {
+    overflow: auto;
+  }
+}
+
+nav, nav *, nav * * {
+    font-family: Montserrat;
+}
+
+.relative {
+  position: relative !important;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #F9F8FF !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+	letter-spacing: 2px;
+}
+
+*,*:after,*:before{
+  box-sizing: border-box;
+  //transform-style: preserve-3d;
+}
+
+.flex-col { flex-direction: column !important;}
+
+main {position: relative;}
+
+.flex-sm-column-xlg-row {
+	flex-direction: column;
+	@media screen and (min-width: 992px) {
+		flex-direction: row;
+	}
+
+	div.d-flex:nth-of-type(n+2) {
+		padding-left: 0;
+		@media screen and (min-width: 992px) {
+			padding-left: 2rem;
+		}
+	}
+}
+
+.flex-sm-row-xlg-column {
+	flex-direction: row;
+	@media screen and (min-width: 992px) {
+		flex-direction: column;
+	}
+}
+
+.w-sm-100-xlg-50 {
+	width: 100%;
+	@media screen and (min-width: 992px) {
+		width: 50%;
+	}
+}
+
+.text {
+	font-family: Montserrat;
+	font-weight: 100;
+	margin-bottom: 1rem;
+	letter-spacing: 2px;
+}
+
+.container {max-width: none !important; width: 100%; }
+
+break{
+  flex-basis: 100%;
+  width: 0px; 
+  height: 0px; 
+  overflow: hidden;
+}
+
+.menuBtn {
+    position: absolute;
+	z-index: 9999;
+	background: transparent !important;
+	box-shadow: 0;
+	border-radius: 5px;
+	font-size: 2rem;
+	margin-top: 1rem;
+	font-size: 1rem;
+
+	&.btnDark {
+		border: 2px solid #3A1078 !important;
+		color: #3A1078 !important;
+		transition: border 1s ease-out;
+		transition: color 1s ease-out;
+	}
+
+	&.btnLight {
+		border: 2px solid #FDF7FF !important;
+		color: #FDF7FF !important;
+		transition: border 1s ease-out;
+		transition: color 1s ease-out;
+	}
+}
+
+.sideMenu {
+	position: absolute;
+	z-index: 999;
+	right: 100%;
+	transition: right 0.25s linear;
+
+	@media screen and (min-width: 768px) {
+		display: block;
+		position: relative;
+		right: initial;
+	}
+}
+
+.sideMenuOut {
+	position: absolute;
+	z-index: 999;
+	right: 0%;
+	transition: right 0.25s linear;
+
+	@media screen and (min-width: 768px) {
+		display: block;
+		position: relative;
+		right: initial;
+	}
+}
+
+.scroll-container {
+	position: relative;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+
+	.page {
+		min-height: 100vh;
+		scroll-snap-align: start;
+
+		.title {
+			letter-spacing: 2px;
+			font-family: LeagueSpartan !important;
+			padding-top: 1rem;
+			padding-bottom: 1.5rem;
+		}
+		.subtitle {
+			letter-spacing: 2px;
+			font-family: LeagueSpartan;
+			margin-bottom: .5rem;
+		}
+
+		span.code {
+			font-family: monospace;
+			color: #fff;
+			border-color: #990073;
+			background-color: #990073;
+			display: inline-block;
+			padding: 0.2em 0.6em 0.35em 0.6em;
+			margin: 2px 2px 2px 2px;
+			line-height: 1rem;
+			white-space: nowrap;
+			text-decoration: none;
+			text-align: center;
+			border-width: 1px;
+			border-style: solid;
+			border-radius: 5px;
+			font-size: 12px;
+        }
+	}
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    margin-left: calc(var(--bs-gutter-x) * -0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    bottom: 0;
+    padding-bottom: calc(var(--bs-gutter-x) * 0.5);
+	flex-direction: column;
+
+    ul {
+		list-style: none;
+		padding: 0;
+		display: flex;
+		align-items: stretch;
+		justify-content: space-evenly;
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+
+        li {
+			float: left;
+
+			img {
+				width: 32px;
+				height: 32px;
+			}
+        }
+    }
+
+	.copyright {
+		font-size: 1rem;
+		font-family: LeagueSpartan;
+	}
+
+	.copyright-name {
+		font-size: .8rem;
+		font-family: LeagueSpartan;
+	}
+}

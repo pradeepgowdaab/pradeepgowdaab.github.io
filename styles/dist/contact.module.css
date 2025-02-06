@@ -1,0 +1,43 @@
+#contact {
+  background: #3A1078;
+  height: 100vh;
+  padding-top: 3.7rem;
+}
+
+@media screen and (min-width: 768px) {
+  #contact {
+    padding-top: 1rem;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+}
+
+#contact *, #contact * * {
+  color: #fff;
+  letter-spacing: 2px;
+  font-family: Montserrat;
+}
+
+#contact #container {
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  #contact #container {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #contact #container {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #contact #container {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=contact.module.css.map */

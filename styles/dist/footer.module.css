@@ -1,0 +1,76 @@
+.footer {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  color: #fff;
+  background: #0f304a;
+  font-family: Montserrat;
+}
+
+.footer .row {
+  margin-top: 2rem;
+}
+
+.footer #hydraenium {
+  width: 75%;
+}
+
+.footer .extra {
+  margin-top: 1.2rem;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  padding-bottom: 0.5rem;
+}
+
+.footer ul a {
+  color: #fff;
+  text-decoration: none;
+  font-family: MontserratLight;
+}
+
+.footer ul a:hover {
+  color: #bfe6ff;
+}
+
+.footer .mini {
+  font-size: .85rem;
+  padding-left: 1px;
+  font-family: MontserratLight;
+}
+
+.footer .head {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer .socialLink {
+  margin-bottom: 1rem;
+}
+
+.footer .socialLink a {
+  font-size: 34px;
+  margin-right: 1.75rem;
+}
+
+.footer .socialLink a.devto img {
+  height: 40px;
+  vertical-align: middle;
+}
+
+.footer form {
+  margin-top: .75rem;
+  margin-bottom: 1rem;
+}
+
+.footer .emailText {
+  display: inline-block;
+  width: initial;
+  margin-right: 1rem;
+}
+
+/*# sourceMappingURL=footer.module.css.map */

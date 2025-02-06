@@ -1,0 +1,193 @@
+#nativek8s {
+  margin-top: 3rem;
+  border-radius: 1rem;
+  background: #020024;
+  background: linear-gradient(320deg, #020024 0%, #102e43 40%, #004696 100%);
+  color: #fff;
+}
+
+#nativek8s * {
+  font-family: MontserratExtraLight;
+}
+
+#nativek8s img {
+  width: 100%;
+}
+
+#nativek8s #img_holder {
+  background: url("../public/images/office.webp") no-repeat;
+  border-radius: 1rem 0rem 0rem 1rem;
+  background-size: cover;
+  background-position: center;
+}
+
+#nativek8s .blueBg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #0073a7;
+  opacity: 0.3;
+  border-radius: 1rem 0 0 1rem;
+  margin-left: calc(var(--bs-gutter-x, 1.5) * -0.5);
+}
+
+#nativek8s h3 {
+  font-family: MontserratLight;
+  margin-bottom: 1rem;
+}
+
+#nativek8s ul {
+  list-style: none;
+  padding-left: 0rem;
+}
+
+#nativek8s ul li {
+  margin-top: 2rem;
+}
+
+#nativek8s ul li h5 {
+  font-family: Montserrat;
+  line-height: 1.85rem;
+}
+
+#nativek8s button {
+  margin-top: 2rem;
+  font-size: 1rem;
+  padding: 0.35rem 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  font-family: Montserrat;
+}
+
+#nativek8s button i {
+  font-size: 1.5rem;
+  padding-left: 0rem;
+  padding-right: .5rem;
+}
+
+#nativek8s .textcontainer {
+  padding: 2rem 0.5rem;
+}
+
+#supportedOn {
+  font-family: Montserrat;
+  margin-bottom: 5rem;
+}
+
+#supportedOn h3 {
+  margin-top: 3.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#supportedOn .content {
+  flex-direction: column;
+}
+
+#supportedOn img {
+  max-width: 700px;
+  align-self: center;
+  width: 100%;
+}
+
+#frigga {
+  margin-top: 3rem;
+  background-color: #b7e7ff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#frigga * {
+  line-height: 2rem;
+}
+
+#frigga h1 {
+  margin-bottom: 1.5rem;
+  font-family: Montserrat;
+}
+
+#frigga h5 {
+  font-family: MontserratLight;
+  margin-bottom: 1rem;
+}
+
+#frigga h4 {
+  line-height: 2.2rem;
+  font-family: MontserratLight;
+}
+
+#frigga h6 {
+  padding-left: 3px;
+  font-family: Montserrat;
+}
+
+#frigga .socialLink {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+#frigga a {
+  font-size: 2.5rem;
+  margin-right: 1.75rem;
+}
+
+#frigga a.devto img {
+  width: 40px;
+  vertical-align: top;
+}
+
+#frigga .logoHolder {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#frigga img {
+  width: 65%;
+}
+
+#about *, #about * * {
+  font-family: Montserrat;
+}
+
+#about h1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: MontserratLight;
+  color: #003dc1;
+}
+
+#about h3 {
+  font-family: MontserratExtraLight;
+  line-height: 140%;
+  margin-top: 2rem;
+}
+
+#about h3 code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 105%;
+  color: #003dc1;
+}
+
+#about h3 caps {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#about .videowrapper {
+  width: 75%;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+}
+
+#about .videowrapper iframe {
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+}
+
+#about .question {
+  margin-top: .5rem;
+}
+
+/*# sourceMappingURL=extra.module.css.map */

@@ -1,0 +1,96 @@
+#banner{
+
+    height: 100vh;
+    background: #3A1078;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media screen and (min-width: 768px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    &>div {
+        display: flex;
+        align-items: center;
+        justify-content: initial;
+
+        @media screen and (min-width: 576px) {
+            justify-content: center;
+        }
+    }
+
+    .wrapper { position: absolute; }
+
+    .hello {
+        font-size: 36px;
+        font-family: LeagueSpartan;
+        color: #3A107800;
+        margin-bottom: 0;
+        line-height: 42px;
+        margin-right: 20px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #fff;
+
+        @media screen and (min-width: 450px) {
+            font-size: 50px;
+            line-height: 60px;
+        }
+    }
+
+    .name {
+        font-family: Guaraldo;
+        color: #ffffff;
+        font-size: 48px;
+
+        @media screen and (min-width: 450px) {
+            font-size: 82px;
+        }
+    }
+
+    .definition {
+        color: #ffa000;
+        font-family: LeagueSpartan;
+        height: 70px;
+        line-height: 70px;
+        margin-top: -15px;
+        font-size: 44px;
+
+        span {
+            border-right: 10px solid #ffa000;
+            animation: blink-caret 0.5s step-end infinite;
+
+            @keyframes blink-caret {
+                from, to { border-color: transparent }
+                50% { border-color: #ffa000; }
+            }
+        }
+
+        @media screen and (min-width: 450px) {
+            height: 90px;
+            line-height: 90px;
+            margin-top: -25px;
+            font-size: 64px;
+        }
+    }
+
+    button {
+        margin-right: 1.2rem;
+    }
+
+    .hire { background-color: #D73461; border-color: #D73461; }
+
+    .info { background-color: #ffa000; border-color: #ffa000; }
+}
+
+#board {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #3A1078;
+    background-image: linear-gradient(#3f269270 1px, transparent 1px), linear-gradient(90deg, #3f269270 1px, transparent 1px);
+
+    .cell {
+        background-color: #3f269270;
+    }
+}
