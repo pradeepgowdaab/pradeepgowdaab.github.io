@@ -29,7 +29,7 @@ export const experiences = [
         endTime: 'December 2023',
         startTime: 'July 2023',
         position: 'Lead Cloud Engineer',
-        skills: ['AWS', 'Azure', 'GCP', 'DevSecOps', 'Linux', 'Terraform', 'Kubernetes', 'Docker', 'Jenkins', 'CI/CD'],
+        skills: ['AWS', 'Azure', 'GCP', 'DevSecOps', 'Linux', 'Terraform', 'Kubernetes', 'Docker', 'Jenkins', 'CI/CD', 'ISO/IEC 27001:2022'],
         description: `Led the end-to-end DevOps transformation for a high-growth startup, driving automation, containerization, and multi-cloud strategies to scale operations securely.`,
         pointerHeader: 'Key Achievements:',
         pointers: [
