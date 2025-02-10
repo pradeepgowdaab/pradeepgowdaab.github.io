@@ -31,16 +31,15 @@ export const experiences = [
         endTime: 'December 2023',
         startTime: 'July 2023',
         position: 'Lead Cloud Engineer',
-        skills: ['AWS', 'Azure', 'GCP', 'Oracle', 'DevSecOps', 'Linux', 'Terraform', 'Kubernetes', 'Docker', 'Jenkins', 'CI/CD'],
-        description: `Led the end-to-end DevOps transformation for a high-growth startup, driving automation, containerization, and multi-cloud strategies to scale operations securely.`,
-        pointerHeader: 'Key Achievements:',
+        skills: ['AWS', 'Azure', 'GCP', 'Terraform', 'Kubernetes', 'Docker', 'Cloud Security', 'CI/CD'],
+        description: `Led the transformation of DevOps and cloud infrastructure at a fast-paced startup, implementing automation, containerization, and multi-cloud strategies to support rapid scalability and performance.`,
+        pointerHeader: 'Key Contributions:',
         pointers: [
-            'Built **end-to-end CI/CD pipelines**, streamlining deployment across AWS, Azure, and GCP.',
-            'Modernized **30+ legacy applications** by containerizing them, improving scalability and reducing deployment times.',
-            'Designed a **cloud-agnostic infrastructure**, enabling seamless portability across cloud providers.',
-            'Automated infrastructure with **Terraform & Kubernetes**, reducing manual effort by **80%**.',
-            'Implemented **ISO 27001-aligned security practices**, enhancing compliance and security posture.',
-            'Optimized cloud cost and **improved system resilience** through auto-scaling and monitoring solutions.'
+            'Designed and implemented **end-to-end DevOps CI/CD pipelines**, enabling seamless code deployment across multiple environments.',
+            'Transformed **30+ legacy applications** by containerizing them, reducing deployment time and improving scalability.',
+            'Architected a **cloud-agnostic infrastructure**, allowing applications to run seamlessly across AWS, Azure, and GCP.',
+            'Automated infrastructure provisioning using **Terraform and Kubernetes**, ensuring consistency and reducing manual effort by 80%.',
+            'Optimized cloud cost and improved system performance by **implementing auto-scaling and resource monitoring**.'
         ]
     },
     {
@@ -52,14 +51,14 @@ export const experiences = [
         startTime: 'May 2022',
         position: 'DevOps Lead',
         skills: ['AWS', 'Terraform', 'Docker', 'Kubernetes', 'GitHub', 'Jenkins', 'Linux', 'Monitoring'],
-        description: `Led DevOps automation and cloud infrastructure optimization for a leading SaaS product company, driving innovation and efficiency.`,
-        pointerHeader: 'Key Achievements:',
+        description: `Led DevOps initiatives for a leading SaaS product company, driving automation, infrastructure scaling, and cloud cost optimization.`,
+        pointerHeader: 'Key Contributions:',
         pointers: [
-            'Developed **Terraform-based IaC solutions**, ensuring consistent cloud provisioning.',
-            'Built centralized **logging & monitoring** using Prometheus and ELK stack.',
-            'Reduced deployment failures by **60%** through robust CI/CD pipeline integration.',
-            'Strengthened security by **hardening IAM policies, VPC segmentation & WAF implementation**.',
-            'Reduced **cloud costs** by optimizing resources and automating scaling mechanisms.'
+            'Designed **infrastructure-as-code (IaC) solutions** with Terraform for efficient cloud provisioning.',
+            'Implemented **centralized logging and monitoring** with Prometheus and ELK stack.',
+            'Reduced deployment failures by **60%** by integrating robust CI/CD pipelines.',
+            'Enhanced cloud security with **IAM, VPC segmentation, and AWS WAF**.',
+            'Optimized cloud costs by identifying and decommissioning underutilized resources.'
         ]
     },
     {
@@ -71,13 +70,13 @@ export const experiences = [
         startTime: 'November 2020',
         position: 'DevOps Engineer',
         skills: ['AWS', 'Terraform', 'Ansible', 'Jenkins', 'Linux', 'Python'],
-        description: `Spearheaded DevOps automation and infrastructure resilience, ensuring rapid deployments and operational stability.`,
-        pointerHeader: 'Key Achievements:',
+        description: `Responsible for implementing cloud automation, ensuring high availability, and improving DevOps workflows for SaaS applications.`,
+        pointerHeader: 'Key Contributions:',
         pointers: [
-            'Automated deployments with **Jenkins & Ansible**, reducing deployment cycles.',
-            'Developed **Terraform scripts** for efficient AWS infrastructure management.',
-            'Implemented **Kubernetes auto-scaling**, ensuring high availability for microservices.',
-            'Secured CI/CD pipelines, enabling rapid yet secure software delivery.'
+            'Automated deployment processes with **Jenkins and Ansible**, reducing manual interventions.',
+            'Developed Terraform scripts to **provision and manage AWS infrastructure** efficiently.',
+            'Ensured **high availability** for microservices architecture by implementing Kubernetes auto-scaling.',
+            'Set up **secure CI/CD pipelines** ensuring rapid yet secure software delivery.'
         ]
     }
 ];
