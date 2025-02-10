@@ -45,7 +45,7 @@ export default function SideProfile({onSelect}) {
 							<span className='text-danger'>No Copyright!</span> Take the Code.
 						</h5>
 						<h5 className={`text-center copyright-name`}>
-							By Veer S Shrivastav
+							By Pradeep AB
 						</h5>
 					</footer>
 				</div>
