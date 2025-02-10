@@ -8,7 +8,7 @@ export default function Banner() {
     const [subIndex, setSubIndex] = useState(0);
     const [index, setIndex] = useState(0); //index of char of word
     const [reverse, setReverse] = useState(false);
-    const definition = ['Entrepreneur', 'Technologist', 'Developer', 'Explorer', 'Learner', 'Blogger'];
+    const definition = ['Cloud Solutions Architect', 'DevSecOps Expert', 'Entrepreneur', 'Technologist', 'Developer', 'Security Enthusiast', 'Explorer', 'Learner', 'Blogger'];
 
     useEffect(() => {
         if (subIndex === definition[index].length + 1 && !reverse) {
