@@ -8,7 +8,7 @@ import KeySkill from './keyskill';
 export default function Profile() {
     
     const downloadResume = () => {
-        window.open("https://veershrivastav.com/veer_shrivastav.pdf", "_blank")
+        window.open("https://pradeepab.com/pradeep_ab.pdf", "_blank")
     }
 
     const renderSkills = () => {

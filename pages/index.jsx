@@ -61,8 +61,8 @@ export default function Home() {
   	return (
 		<>
 			<Head>
-				<title>Veer Shrivastav</title>
-				<meta name="description" content="Veer Shrivastav is an Entrepreneur, Technologist, Engineering Leader and Developer." />
+				<title>Pradeep AB</title>
+				<meta name="description" content="Pradeep AB is an Entrepreneur, Technologist, Cloud Engineering Lead and Developer." />
 				<link rel="icon" href="/favicon.ico" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 			</Head>

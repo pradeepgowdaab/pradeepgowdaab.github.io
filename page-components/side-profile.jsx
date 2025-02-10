@@ -8,8 +8,8 @@ export default function SideProfile({onSelect}) {
             <div className='row' id={styles.sideProfile}>
                 <div className='col-12'>
 					<div id={styles.frame}>
-						<img className={styles.profilePic} src="./images/veer_shrivastav.jpg" />
-						<h3 className={styles.name}><a href="#home" onClick={onSelect}>Veer Shrivastav</a></h3>
+						<img className={styles.profilePic} src="./images/pradeep_ab.jpg" />
+						<h3 className={styles.name}><a href="#home" onClick={onSelect}>Pradeep AB</a></h3>
 					</div>
 					<div className={styles.links}>
 						<ul>
@@ -21,22 +21,22 @@ export default function SideProfile({onSelect}) {
 					<footer>
 						<ul>
 							<li>
-								<a href='https://www.linkedin.com/in/veer-shrivastav/' target='_blank' onClick={onSelect}>
+								<a href='https://www.linkedin.com/in/pradeep-ab-devsecops/' target='_blank' onClick={onSelect}>
 									<img className={styles.social} src='./images/linkedin.png' alt='LinkedIn' />
 								</a>
 							</li>
 							<li>
-								<a href='https://dev.to/srivastavveer' target='_blank' onClick={onSelect}>
+								<a href='https://dev.to/pradeepab' target='_blank' onClick={onSelect}>
 									<img className={styles.social} src='./images/devto.png' alt='Dev.To' />
 								</a>
 							</li>
 							<li>
-								<a href='https://github.com/srivastav-veer' target='_blank' onClick={onSelect}>
+								<a href='https://github.com/pradeepgowdaab' target='_blank' onClick={onSelect}>
 									<img className={styles.social} src='./images/github.png' alt='GitHub' />
 								</a>
 							</li>
 							<li>
-								<a href='https://stackoverflow.com/users/1393856/veer-shrivastav' target='_blank' onClick={onSelect}>
+								<a href='https://stackoverflow.com/users/27689734/pradeep-ab' target='_blank' onClick={onSelect}>
 									<img className={styles.social} src='./images/stackoverflow.png' alt='StackOverflow' />
 								</a>
 							</li>

@@ -46,7 +46,7 @@ export default function Banner() {
                     <Conways />
                     <div className={styles.wrapper}>
                         <h1 className={styles.hello}>Hi There! I'm</h1>
-                        <h1 className={styles.intro}><span className={styles.name}>Veer Shrivastav,</span></h1>
+                        <h1 className={styles.intro}><span className={styles.name}>Pradeep AB,</span></h1>
                         <h3 className={styles.definition}><span>{`${definition[index].substring(0, subIndex)}`}</span></h3>
                         <div className='d-flex'>
                             <Button className={styles.hire} variant='danger' size='lg' onClick={gotoContact}>Hire Me!</Button>

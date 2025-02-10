@@ -1,12 +1,12 @@
 export const experiences = [
     {
         organization: {
-            name: 'DaMENSCH',
-            url: 'https://damensch.com'
+            name: 'BIMAPLAN',
+            url: 'https://bimaplan.co'
         },
-        endTime: 'March 2023',
-        startTime: 'July 2021',
-        position: 'VP of Engineering',
+        endTime: 'Present',
+        startTime: 'December 2023',
+        position: 'Cloud Engineer',
         skills: ['Node.js', 'MongoDB', 'MySQL', 'PHP', 'Redis', 'Docker', 'Kubernetes', 'AWS', 'PHP', 'ReactJs', 'React-Native'],
         desciption: `DaMENSCH is India's leading online D2C apparel brand. The organization 
         does a revenue of more than $20M from its website, I joined the team to upgrade 
@@ -21,8 +21,8 @@ export const experiences = [
     },
     {
         organization: {
-            name: 'Toppr',
-            url: 'https://www.toppr.com/'
+            name: 'Trinity Mobility Pvt Ltd',
+            url: 'https://www.trinitymobility.com/'
         },
         endTime: 'August 2021',
         startTime: 'Augsut 2020',

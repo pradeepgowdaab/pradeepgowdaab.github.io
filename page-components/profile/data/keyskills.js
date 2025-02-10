@@ -1,30 +1,30 @@
 export const keySkills = [
     {
-        name: 'Engineering Management',
+        name: 'Cloud & Infrastructure',
         points: 8
     },
     {
-        name: 'System Design & Architecture',
-        points: 7
-    },
-    {
-        name: 'Low Level Design',
-        points: 8
-    },
-    {
-        name: 'Sprint Planning and Execution',
+        name: 'DevSecOps & Security',
         points: 9
     },
     {
-        name: 'Node.js',
+        name: 'Kubernetes & Containers',
+        points: 8
+    },
+    {
+        name: 'CI/CD & Automation',
+        points: 9
+    },
+    {
+        name: 'Cloud Architecture & Consulting Skills',
         points: 7
     },
     {
-        name: 'AWS and Infra Management',
+        name: 'Programming & Scripting',
         points: 7
     },
     {
-        name: 'MongoDB',
+        name: 'Monitoring & Incident Response',
         points: 6
     }
 ];

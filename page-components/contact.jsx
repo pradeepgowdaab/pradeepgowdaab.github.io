@@ -12,7 +12,7 @@ export default function Contact({show}) {
             console.log('%cIf you have reached here, that means you are smart enough! But do keep the secret 🤫.', 'color: blue; font-size: 22px');
         }
         window.email = () => {
-            console.log('%cAhhh!! Okay because you have cracked it, you deserve it. But please don\'t share it with anyone 🤫. I have marketing messages. Feel free to send me an email on hello@veershrivastav.com', 'color: blue; font-size: 22px');
+            console.log('%cAhhh!! Okay because you have cracked it, you deserve it. But please don\'t share it with anyone 🤫. I have marketing messages. Feel free to send me an email on hello@pradeepab.com', 'color: blue; font-size: 22px');
         }
         window.phone = () => {
             console.log('%cSorry buddy! even you have cracked it! I can\'t share my phone number with you. However, there is a way you can retrieve it. keep looking...', 'color: blue; font-size: 22px');
