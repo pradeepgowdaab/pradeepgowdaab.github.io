@@ -8,7 +8,7 @@ export const keySkills = [
         points: 9
     },
     {
-        name: 'Kubernetes & Containers',
+        name: 'Kubernetes & Containerization',
         points: 8
     },
     {

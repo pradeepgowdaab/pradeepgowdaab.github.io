@@ -7,7 +7,7 @@ export const experiences = [
         endTime: 'Present',
         startTime: 'December 2023',
         position: 'Cloud Engineer',
-        skills: ['AWS', 'Terraform', 'Kubernetes', 'Docker', 'DevSecOps', 'Cloud Security', 'CI/CD', 'PostgreSQL', 'IAM', 'S3', 'VPC'],
+        skills: ['AWS Certified', 'Solution Architect', 'DevSecOps', 'GitHub', 'Cloud Security', 'CI/CD'],
         description: `Bimaplan is a leading InsurTech company revolutionizing insurance accessibility for millions in India. As a Cloud Engineer, I architect and secure cloud infrastructure, ensuring high availability, automation, and scalability.`,
         pointerHeader: 'Key Achievements:',
         pointers: [
@@ -29,7 +29,7 @@ export const experiences = [
         endTime: 'December 2023',
         startTime: 'July 2023',
         position: 'Lead Cloud Engineer',
-        skills: ['AWS', 'Azure', 'GCP', 'Terraform', 'Kubernetes', 'Docker', 'DevSecOps', 'Cloud Security', 'CI/CD'],
+        skills: ['AWS', 'Azure', 'GCP', 'DevSecOps', 'Linux', 'Terraform', 'Kubernetes', 'Docker', 'Jenkins', 'CI/CD'],
         description: `Led the end-to-end DevOps transformation for a high-growth startup, driving automation, containerization, and multi-cloud strategies to scale operations securely.`,
         pointerHeader: 'Key Achievements:',
         pointers: [
