@@ -9,7 +9,7 @@ export const experiences = [
         position: 'Cloud Engineer',
         skills: ['AWS Certified', 'Solution Architect', 'DevSecOps', 'GitHub', 'Cloud Security', 'CI/CD', 'ISO/IEC 27001:2022'],
         description: `Bimaplan is a leading InsurTech company focused on making insurance accessible to millions in India. As a Cloud Engineer, I am responsible for designing, securing, and optimizing the cloud infrastructure while ensuring high availability and scalability.`,
-        pointerHeader: 'Key Achievements:',
+        pointerHeader: 'Major Contributions:',
         pointers: [
             'Led ISO 27001 implementation, ensuring compliance with security best practices and regulatory standards.',
             'Migrated all workloads from one AWS account to another, optimizing security, cost management, and resource organization.',
@@ -33,7 +33,7 @@ export const experiences = [
         position: 'Lead Cloud Engineer',
         skills: ['AWS', 'Azure', 'GCP', 'Terraform', 'Kubernetes', 'Docker', 'Cloud Security', 'CI/CD'],
         description: `Led the transformation of DevOps and cloud infrastructure at a fast-paced startup, implementing automation, containerization, and multi-cloud strategies to support rapid scalability and performance.`,
-        pointerHeader: 'Key Contributions:',
+        pointerHeader: 'Major Contributions:',
         pointers: [
             'Designed and implemented end-to-end DevOps CI/CD pipelines, enabling seamless code deployment across multiple environments.',
             'Transformed 30+ legacy applications by containerizing them, reducing deployment time and improving scalability.',
