@@ -56,8 +56,7 @@ export const experiences = [
         pointers: [
             'Designed infrastructure-as-code (IaC) solutions with Terraform for efficient cloud provisioning.',
             'Implemented centralized logging and monitoring with Prometheus and ELK stack.',
-            'Reduced deployment failures by 60% by integrating robust CI/CD pipelines.',
-            'Optimized cloud costs by identifying and decommissioning underutilized resources.'
+            'Reduced deployment failures by 60% by integrating robust CI/CD pipelines.'
         ]
     },
     {
