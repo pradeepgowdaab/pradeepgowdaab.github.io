@@ -1,22 +1,25 @@
 export const experiences = [
     {
         organization: {
-            name: 'BIMAPLAN',
+            name: 'Bimaplan',
             url: 'https://bimaplan.co'
         },
         endTime: 'Present',
         startTime: 'December 2023',
         position: 'Cloud Engineer',
-        skills: ['Node.js', 'MongoDB', 'MySQL', 'PHP', 'Redis', 'Docker', 'Kubernetes', 'AWS', 'PHP', 'ReactJs', 'React-Native'],
-        desciption: `DaMENSCH is India's leading online D2C apparel brand. The organization 
-        does a revenue of more than $20M from its website, I joined the team to upgrade 
-        the in-house technology implementation. I was responsible for building, and 
-        managing the tech team, and setting up the end-to-end technology process.`,
+        skills: ['AWS', 'Terraform', 'Kubernetes', 'Docker', 'DevSecOps', 'Cloud Security', 'CI/CD', 'PostgreSQL', 'Redis', 'S3', 'VPC'],
+        description: `Bimaplan is a leading InsurTech company focused on making insurance accessible to millions in India. As a Cloud Engineer, I am responsible for designing, securing, and optimizing the cloud infrastructure while ensuring high availability and scalability.`,
         pointerHeader: 'Key Contributions:',
         pointers: [
-            'Saved more than $40K on cloud bills by optimizing cloud infra.',
-            'Set up the first core engineering team (13 Engineers) in less than 2 months.',
-            'Created the end-to-end sprint process.'
+            'Led **ISO 27001 implementation**, ensuring compliance with security best practices and regulatory standards.',
+            'Migrated legacy applications to **AWS serverless microservice architecture** using **AWS Lambda, API Gateway, DynamoDB, and SQS**, improving scalability, performance, and cost efficiency.',
+            'Implemented **AWS WAF and AWS Shield** to protect against web-based attacks and DDoS threats.',
+            'Enhanced cloud security posture by configuring **AWS Security Hub**, ensuring continuous compliance monitoring.',
+            'Strengthened identity and access management with **AWS IAM, AWS Identity Center (SSO), and CloudTrail**, enforcing least privilege access and auditing all cloud activities.',
+            'Designed and optimized **AWS infrastructure** using Terraform, improving efficiency and reducing manual configurations.',
+            'Implemented **multi-tier architecture** with private and public subnets, improving security and performance.',
+            'Automated **CI/CD pipelines** with **Jenkins and GitHub Actions**, streamlining deployments across environments.',
+            'Enhanced system monitoring and alerting using **CloudWatch, GuardDuty, and Prometheus**, ensuring proactive threat detection and response.'
         ]
     },
     {
@@ -24,82 +27,57 @@ export const experiences = [
             name: 'Trinity Mobility Pvt Ltd',
             url: 'https://www.trinitymobility.com/'
         },
-        endTime: 'August 2021',
-        startTime: 'Augsut 2020',
-        position: 'Engineering Manager',
-        skills: ['Node.js', 'MongoDB', 'Redis', 'AWS', 'ReactJs', 'React-Native'],
-        desciption: `Toppr is listed among the top 10 EduTech companies in India, now 
-        acquired by BYJU's which is among the top EduTech companies in the world. 
-        At Toppr, I managed end-to-end technology implementations for Toppr School 
-        platform, a SaaS application given to schools to conduct online classes, 
-        quizzes, and exams.`,
-        pointerHeader: 'Achievements:',
+        endTime: 'December 2023',
+        startTime: 'July 2023',
+        position: 'Lead Cloud Engineer',
+        skills: ['AWS', 'Azure', 'GCP', 'Terraform', 'Kubernetes', 'Docker', 'DevSecOps', 'Cloud Security', 'CI/CD'],
+        description: `Led the transformation of DevOps and cloud infrastructure at a fast-paced startup, 
+        implementing automation, containerization, and multi-cloud strategies to support rapid scalability and security compliance.`,
+        pointerHeader: 'Key Contributions:',
         pointers: [
-            'Delivered the quiz platform in less than 21 days.',
-            'Successfully delivered and managed the end-to-end implementation of online classes via Zoom API.',
+            'Designed and implemented **end-to-end DevOps CI/CD pipelines**, enabling seamless code deployment across multiple environments.',
+            'Transformed **30+ legacy applications** by containerizing them, reducing deployment time and improving scalability.',
+            'Architected a **cloud-agnostic infrastructure**, allowing applications to run seamlessly across AWS, Azure, and GCP.',
+            'Automated infrastructure provisioning using **Terraform and Kubernetes**, ensuring consistency and reducing manual effort by 80%.',
+            'Established **DevOps best practices and security processes**, aligning with ISO 27001 and industry standards.',
+            'Optimized cloud cost and improved system performance by **implementing auto-scaling and resource monitoring**.'
         ]
     },
     {
         organization: {
-            name: 'Xwards',
-            url: '#'
+            name: 'Trinity Mobility Pvt Ltd',
+            url: 'https://www.trinitymobility.com/'
         },
-        endTime: 'October 2020',
-        startTime: 'May 2018',
-        position: 'Co-Founder & CTO',
-        skills: ['Node.js', 'Fluentd', 'MongoDB', 'MySQL', 'Neo4J', 'React-Native'],
-        desciption: `Xwards was my second startup. It was an in-cab mobility advertisement company 
-        based out of Bangalore. At Xwards, we installed tablets inside taxis for passengers to 
-        watch content such as news, videos, live TV, etc. Based on the passengers watching 
-        preferences an intelligent system would push advertisements to the tablet.`,
-        pointerHeader: 'Major Technical Challenges:',
+        endTime: 'November 2023',
+        startTime: 'May 2022',
+        position: 'DevOps Lead',
+        skills: ['AWS', 'Terraform', 'Docker', 'Kubernetes', 'GitHub', 'Jenkins', 'Linux', 'Monitoring'],
+        description: `Led DevOps initiatives for a leading SaaS product company, driving automation, infrastructure scaling, and cloud cost optimization.`,
+        pointerHeader: 'Key Contributions:',
         pointers: [
-            'Managing no-buffering on content for a seamless experience.',
-            'Syncing logs and user activities while the tablet was in no network zone.',
-            'Real-time intelligence for pushing Ads based on logs from devices.',
-            'Developing systems to stop device theft.'
+            'Designed **infrastructure-as-code (IaC) solutions** with Terraform for efficient cloud provisioning.',
+            'Implemented **centralized logging and monitoring** with Prometheus and ELK stack.',
+            'Reduced deployment failures by **60%** by integrating robust CI/CD pipelines.',
+            'Enhanced cloud security with **IAM, VPC segmentation, and AWS WAF**.',
+            'Optimized cloud costs by identifying and decommissioning underutilized resources.'
         ]
     },
     {
         organization: {
-            name: 'Justdial Labs',
-            url: 'https://www.justdial.com/'
+            name: 'Trinity Mobility Pvt Ltd',
+            url: 'https://www.trinitymobility.com/'
         },
-        endTime: 'April 2018',
-        startTime: 'April 2016',
-        position: 'Sr. Software Engineer',
-        desciption: `Justdial, India's number 1 local search engine. 
-        Justdial lacked log tracking systems and was unable to track their 
-        visitors on the genre of search that one was doing. 
-        And hence being Senior Software Engineer, I developed their log visualization 
-        platform using Fluentd, MongoDB and Kibana.`,
-        skills: ['Node.js', 'Fluentd', 'PHP', 'ElasticSearch'],
-        pointerHeader: 'Major Contributions:',
+        endTime: 'May 2022',
+        startTime: 'November 2020',
+        position: 'DevOps Engineer',
+        skills: ['AWS', 'Terraform', 'Ansible', 'Jenkins', 'Linux', 'Python'],
+        description: `Responsible for implementing cloud automation, ensuring high availability, and improving DevOps workflows for SaaS applications.`,
+        pointerHeader: 'Key Contributions:',
         pointers: [
-            'Developed internal application library on extending Log4JS and Log4PHP for applications to log various events.',
-            'Established end-to-end logging infrastructure',
-            'Reverse Geo-Coding for addresses in Justdial database to find lat-long from string'
-        ]
-    },
-    {
-        organization: {
-            name: 'Tata Consultancy Services',
-            url: 'https://www.tcs.com/'
-        },
-        endTime: 'April 2016',
-        startTime: 'July 2013',
-        position: 'Software Engineer',
-        desciption: `I was on contract in the Business Catalyst Team (BCS) for Qualcomm. 
-        During my tenure at the organization I worked on various differnet internal applications of 
-        Qualcomm. Here I explored technologies like - AngularJS, JQuery, Jasmine, RequireJS,
-        Moodle(PHP), Wordpress, Bootstrap3, iScroll, MobileUIAngular, Foundation, Phonegap,
-        Android etc...`,
-        skills: ['AngularJs', 'Node.js', 'PHP', 'JavaScript', 'MySQL', 'HTML', 'CSS'],
-        pointerHeader: 'Major Contributions:',
-        pointers: [
-            'Developed and led core modules for Qualcomm\'s employee learning portal.',
-            'Developed internal tools for data migration and data validations',
-            'Developed several proof of concept applications.'
+            'Automated deployment processes with **Jenkins and Ansible**, reducing manual interventions.',
+            'Developed Terraform scripts to **provision and manage AWS infrastructure** efficiently.',
+            'Ensured **high availability** for microservices architecture by implementing Kubernetes auto-scaling.',
+            'Set up **secure CI/CD pipelines** ensuring rapid yet secure software delivery.'
         ]
     }
 ];
