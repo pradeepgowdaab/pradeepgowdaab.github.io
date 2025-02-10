@@ -25,6 +25,6 @@ export const keySkills = [
     },
     {
         name: 'Monitoring & Incident Response',
-        points: 6
+        points: 8
     }
 ];
