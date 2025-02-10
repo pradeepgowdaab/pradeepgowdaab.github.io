@@ -29,7 +29,7 @@ export default function Contact({show}) {
                     <div className='d-flex align-items-center' id={styles.container}>
                         <div className='d-flex flex-col'>
                             <h2 className='title pb-1 pt-0'>Wanna talk?</h2>
-                            <h3 className='subtitle'>Need help on Engineering Leadership? Or do you want to leaverage my network?</h3>
+                            <h3 className='subtitle'>Need help with Cloud Architecture, DevSecOps, or Security? Or do you want to leaverage my network?</h3>
                             <h3 className='mt-2 mb-3'>I am more than happy to help.</h3>
                             <h4>Sorry I can't share my number here.</h4>
                             <h4>But, feel free to connect with me on LinkedIn.</h4>
