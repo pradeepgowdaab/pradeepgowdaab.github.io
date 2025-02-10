@@ -26,7 +26,7 @@ export default function SideProfile({onSelect}) {
 								</a>
 							</li>
 							<li>
-								<a href='https://dev.to/pradeepab' target='_blank' onClick={onSelect}>
+								<a href='https://hashnode.com/@pradeep-ab' target='_blank' onClick={onSelect}>
 									<img className={styles.social} src='./images/devto.png' alt='Dev.To' />
 								</a>
 							</li>
