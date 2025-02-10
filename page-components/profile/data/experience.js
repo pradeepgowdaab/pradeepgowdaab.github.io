@@ -37,7 +37,7 @@ export const experiences = [
         pointers: [
             'Designed and implemented **end-to-end DevOps CI/CD pipelines**, enabling seamless code deployment across multiple environments.',
             'Transformed **30+ legacy applications** by containerizing them, reducing deployment time and improving scalability.',
-            'Architected a **cloud-agnostic infrastructure**, allowing applications to run seamlessly across AWS, Azure, and GCP.',
+            'Architected a **cloud-agnostic infrastructure**, allowing applications to run seamlessly across AWS, Azure, GCP, Oracle and On-Prem.',
             'Automated infrastructure provisioning using **Terraform and Kubernetes**, ensuring consistency and reducing manual effort by 80%.',
             'Optimized cloud cost and improved system performance by **implementing auto-scaling and resource monitoring**.'
         ]
@@ -74,7 +74,7 @@ export const experiences = [
         pointerHeader: 'Key Contributions:',
         pointers: [
             'Automated deployment processes with **Jenkins and Ansible**, reducing manual interventions.',
-            'Developed Terraform scripts to **provision and manage AWS infrastructure** efficiently.',
+            'Developed Terraform scripts to **provision and manage on-prem and cloud infrastructure** efficiently.',
             'Ensured **high availability** for microservices architecture by implementing Kubernetes auto-scaling.',
             'Set up **secure CI/CD pipelines** ensuring rapid yet secure software delivery.'
         ]
