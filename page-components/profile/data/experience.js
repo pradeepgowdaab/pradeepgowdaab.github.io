@@ -32,7 +32,7 @@ export const experiences = [
         startTime: 'July 2023',
         position: 'Lead Cloud Engineer',
         skills: ['AWS', 'Azure', 'GCP', 'Terraform', 'Kubernetes', 'Docker', 'Cloud Security', 'CI/CD'],
-        description: `Led the transformation of DevOps and cloud infrastructure at a fast-paced startup, implementing automation, containerization, and multi-cloud strategies to support rapid scalability and performance.`,
+        description: `Trinity Mobility is a product-based company specializing in smart city solutions, intelligent transportation, and urban management platforms. As a Lead Cloud Engineer, I led the transformation of cloud infrastructure, optimizing performance, security, and cost efficiency while enabling seamless deployments across multiple cloud providers.`,
         pointerHeader: 'Major Contributions:',
         pointers: [
             'Designed and implemented end-to-end DevOps CI/CD pipelines, enabling seamless code deployment across multiple environments.',
@@ -51,7 +51,7 @@ export const experiences = [
         startTime: 'May 2022',
         position: 'DevOps Lead',
         skills: ['AWS', 'Terraform', 'Docker', 'Kubernetes', 'GitHub', 'Jenkins', 'Linux', 'Monitoring'],
-        description: `Led DevOps initiatives for a leading SaaS product company, driving automation, infrastructure scaling, and cloud cost optimization.`,
+        description: `Led DevOps initiatives for a leading SaaS product company, driving automation, infrastructure scaling, and cloud cost optimizationAs a DevOps Lead at Trinity Mobility, I spearheaded automation initiatives, infrastructure scaling, and security enhancements, ensuring that Trinity's smart city products operated with maximum efficiency, security, and resilience.`,
         pointerHeader: 'Key Contributions:',
         pointers: [
             'Designed infrastructure-as-code (IaC) solutions with Terraform for efficient cloud provisioning.',
@@ -68,7 +68,7 @@ export const experiences = [
         startTime: 'November 2020',
         position: 'DevOps Engineer',
         skills: ['AWS', 'Terraform', 'Ansible', 'Jenkins', 'Linux', 'Python'],
-        description: `Responsible for implementing cloud automation, ensuring high availability, and improving DevOps workflows for SaaS applications.`,
+        description: `Joining Trinity Mobility as a DevOps Engineer, I played a key role in setting up DevOps best practices, implementing automation, and ensuring seamless software delivery for Trinity’s smart city and IoT-based products.`,
         pointerHeader: 'Key Contributions:',
         pointers: [
             'Automated deployment processes with Jenkins and Ansible, reducing manual interventions.',

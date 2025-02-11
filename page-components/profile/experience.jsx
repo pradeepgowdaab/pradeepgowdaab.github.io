@@ -16,7 +16,7 @@ export default function Experience ({data}) {
                     <div className={`d-flex ${('pointerHeader' in data) ? styles.widthsm50 : ''}`}>
                         <h6 className={`subtitle`}>Description</h6>
                         <p className={styles.description}>
-                            {data.desciption}
+                            {data.description}
                         </p>
                     </div>
                 }
