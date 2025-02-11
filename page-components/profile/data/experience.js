@@ -8,19 +8,15 @@ export const experiences = [
         startTime: 'December 2023',
         position: 'Cloud Engineer',
         skills: ['AWS Certified', 'Solution Architect', 'DevSecOps', 'GitHub', 'Cloud Security', 'CI/CD', 'ISO/IEC 27001:2022'],
-        description: `Bimaplan is a leading InsurTech company focused on making insurance accessible to millions in India. As a Cloud Engineer, I am responsible for designing, securing, and optimizing the cloud infrastructure while ensuring high availability and scalability.`,
+        description: `Bimaplan is a leading InsurTech company focused on making insurance accessible to millions in India. As a Cloud Engineer, I built the cloud and DevOps foundation from the ground up, ensuring high availability, security, and scalability for a fast-growing InsurTech platform. I established best practices for cloud security, automation, and observability, enabling seamless deployments and compliance with industry standards.`,
         pointerHeader: 'Major Contributions:',
         pointers: [
-            'Led ISO 27001 implementation, ensuring compliance with security best practices and regulatory standards.',
+            'Designed and implemented a secure and scalable cloud architecture, leveraging AWS Lambda, API Gateway, SQS, and PostgreSQL RDS for high-performance microservices.',
+            'Enhanced security by configuring AWS WAF, Security Hub, GuardDuty, and IAM policies, ensuring compliance and proactive threat mitigation.',
+            'Automated CI/CD pipelines using Jenkins and GitHub Actions, streamlining deployments and minimizing downtime.',
+            'Improved observability and monitoring by integrating CloudWatch, Prometheus, and AWS Security Hub, ensuring real-time insights and proactive issue resolution.',
             'Migrated all workloads from one AWS account to another, optimizing security, cost management, and resource organization.',
-            'Migrated legacy applications to AWS serverless microservice architecture using AWS Lambda, API Gateway, DynamoDB, and SQS, improving scalability, performance, and cost efficiency.',
-            'Implemented AWS WAF and AWS Shield to protect against web-based attacks and DDoS threats.',
-            'Enhanced cloud security posture by configuring AWS Security Hub, ensuring continuous compliance monitoring.',
-            'Strengthened identity and access management with AWS IAM, AWS Identity Center (SSO), and CloudTrail, enforcing least privilege access and auditing all cloud activities.',
-            'Designed and optimized AWS infrastructure using Terraform, improving efficiency and reducing manual configurations.',
-            'Implemented multi-tier architecture with private and public subnets, improving security and performance.',
-            'Automated CI/CD pipelines with Jenkins and GitHub Actions, streamlining deployments across environments.',
-            'Enhanced system monitoring and alerting using CloudWatch, GuardDuty, and Prometheus, ensuring proactive threat detection and response.'
+            'Led ISO 27001 implementation, ensuring compliance with security best practices and regulatory standards.'
         ]
     },
     {
