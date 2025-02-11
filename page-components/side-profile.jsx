@@ -8,7 +8,7 @@ export default function SideProfile({onSelect}) {
             <div className='row' id={styles.sideProfile}>
                 <div className='col-12'>
 					<div id={styles.frame}>
-						<img className={styles.profilePic} src="./images/pradeep_ab.png" />
+						<img className={styles.profilePic} src="./images/pradeep_ab.jpg" />
 						<h3 className={styles.name}><a href="#home" onClick={onSelect}>Pradeep AB</a></h3>
 					</div>
 					<div className={styles.links}>
