@@ -47,7 +47,7 @@ export const experiences = [
         startTime: 'May 2022',
         position: 'DevOps Lead',
         skills: ['AWS', 'Terraform', 'Docker', 'Kubernetes', 'GitHub', 'Jenkins', 'Linux', 'Monitoring'],
-        description: `Led DevOps initiatives for a leading SaaS product company, driving automation, infrastructure scaling, and cloud cost optimizationAs a DevOps Lead at Trinity Mobility, I spearheaded automation initiatives, infrastructure scaling, and security enhancements, ensuring that Trinity's smart city products operated with maximum efficiency, security, and resilience.`,
+        description: `Led DevOps initiatives for a leading product company, driving automation, infrastructure scaling, and cloud cost optimizationAs a DevOps Lead at Trinity Mobility, I spearheaded automation initiatives, infrastructure scaling, and security enhancements, ensuring that Trinity's smart city products operated with maximum efficiency, security, and resilience.`,
         pointerHeader: 'Key Contributions:',
         pointers: [
             'Designed infrastructure-as-code (IaC) solutions with Terraform for efficient cloud provisioning.',
