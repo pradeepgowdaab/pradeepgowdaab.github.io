@@ -8,7 +8,7 @@ export const experiences = [
         startTime: 'December 2023',
         position: 'Cloud Engineer',
         skills: ['AWS Certified', 'Solution Architect', 'DevSecOps', 'Terraform', 'Kubernetes', 'GitHub', 'Cloud Security','ISO/IEC 27001:2022'],
-        description: `Bimaplan is a leading InsurTech company focused on making insurance accessible to millions in India. As a Cloud Engineer, I built the cloud and DevOps foundation from the ground up, ensuring high availability, security, and scalability for a fast-growing InsurTech platform. I established best practices for cloud security, automation, and observability, enabling seamless deployments and compliance with industry standards.`,
+        description: `As the first Cloud Engineer at Bimaplan, I played a key role in architecting and transforming the cloud infrastructure to support a fast-scaling InsurTech platform. My expertise lies in designing high-availability, distributed, and cloud-native solutions while ensuring security, cost efficiency, and scalability. I specialize in modernizing applications through serverless architecture, containerization, and infrastructure as code (IaC) to drive operational excellence.`,
         pointerHeader: 'Major Contributions:',
         pointers: [
             'Designed and implemented a secure and scalable cloud architecture, leveraging AWS Lambda, API Gateway, SQS, and PostgreSQL RDS for high-performance microservices.',
