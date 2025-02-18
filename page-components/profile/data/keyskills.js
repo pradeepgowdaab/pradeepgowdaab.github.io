@@ -4,7 +4,7 @@ export const keySkills = [
         points: 8
     },
     {
-        name: 'DevSecOps & Security',
+        name: 'DevSecOps',
         points: 9
     },
     {
