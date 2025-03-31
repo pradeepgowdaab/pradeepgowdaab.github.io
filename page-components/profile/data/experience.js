@@ -45,7 +45,7 @@ export const experiences = [
             name: 'Trinity Mobility Pvt Ltd',
             url: 'https://www.trinitymobility.com/'
         },
-        endTime: 'November 2023',
+        endTime: 'June 2023',
         startTime: 'May 2022',
         position: 'DevOps Lead',
         skills: ['AWS', 'Terraform', 'Docker', 'Kubernetes', 'GitHub', 'Jenkins', 'Linux', 'Monitoring'],
