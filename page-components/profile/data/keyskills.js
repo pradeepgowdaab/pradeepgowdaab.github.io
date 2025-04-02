@@ -1,10 +1,10 @@
 export const keySkills = [
     {
-        name: 'Cloud & Infrastructure',
+        name: 'Cloud Solutions & Architecture',
         points: 8
     },
     {
-        name: 'DevSecOps',
+        name: 'AWS and Infrastructure Management',
         points: 9
     },
     {
@@ -12,7 +12,7 @@ export const keySkills = [
         points: 8
     },
     {
-        name: 'CI/CD & Automation',
+        name: 'DevSecOps, CI/CD & Automation',
         points: 9
     },
     {
@@ -20,8 +20,8 @@ export const keySkills = [
         points: 7
     },
     {
-        name: 'Programming & Scripting',
-        points: 7
+        name: 'Programming, IAC terraform & Scripting',
+        points: 8
     },
     {
         name: 'Monitoring & Incident Response',
